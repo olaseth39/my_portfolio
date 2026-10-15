@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/BaseLayout.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import projects from '../data/projects.js';
+---
+
+<Layout title="Your Name — Portfolio" description="A portfolio website built with Astro.">
+  <section class="hero">
+    <h1>Hi — I'm Your Name</h1>
+    <p>Frontend developer. Designer. Maker.</p>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Selected work</h2>
+    <div class="grid">
+      {projects.map((project) => <ProjectCard project={project} />)}
+    </div>
+  </section>
+
+  <footer>
+    <p>© {new Date().getFullYear()} Your Name — <a href="/contact">Contact</a></p>
+  </footer>
+</Layout>

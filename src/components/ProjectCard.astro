@@ -1,0 +1,18 @@
+---
+const { project } = Astro.props;
+---
+
+<article class="card">
+  <a class="thumb" href={project.link} target="_blank" rel="noopener noreferrer">
+    <img src={project.image} alt={project.title} />
+  </a>
+  <div class="card-body">
+    <h3>
+      <a href={project.link} target="_blank" rel="noopener noreferrer">{project.title}</a>
+    </h3>
+    <p>{project.description}</p>
+    <div class="meta">
+      <span>{project.tech.join(' • ')}</span>
+    </div>
+  </div>
+</article>
