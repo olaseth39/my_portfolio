@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style>
+      .bg{fill:#f3f4f6}
+      .card{fill:#ffffff;stroke:#e6e7eb;stroke-width:1}
+      .muted{fill:#6b7280;font-family:Inter, Arial, sans-serif;font-size:12px}
+      .title{fill:#111827;font-family:Inter, Arial, sans-serif;font-weight:700;font-size:14px}
+      .box{fill:none;stroke:#cbd5e1;stroke-dasharray:6 4}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1200" height="700" rx="8"/>
+
+  <!-- Header -->
+  <rect class="card" x="40" y="24" width="1120" height="64" rx="8"/>
+  <text x="64" y="64" class="title">Your Name — Senior Data Engineer</text>
+  <text x="940" y="64" class="muted">Work  About  Contact</text>
+
+  <!-- Hero -->
+  <rect class="card" x="40" y="104" width="760" height="200" rx="8"/>
+  <rect class="card" x="820" y="104" width="340" height="200" rx="8"/>
+  <text x="64" y="150" class="title">Hero: Name + Tagline</text>
+  <text x="64" y="178" class="muted">Short tagline that summarizes your focus in one line.</text>
+
+  <!-- Metrics -->
+  <rect class="card" x="40" y="324" width="360" height="80" rx="8"/>
+  <rect class="card" x="420" y="324" width="360" height="80" rx="8"/>
+  <rect class="card" x="800" y="324" width="360" height="80" rx="8"/>
+  <text x="200" y="370" class="title" text-anchor="middle">5+ years</text>
+  <text x="480" y="370" class="title" text-anchor="middle">100k events/s</text>
+  <text x="880" y="370" class="title" text-anchor="middle">MTTR &lt; 30m</text>
+
+  <!-- About -->
+  <rect class="card" x="40" y="424" width="1120" height="86" rx="8"/>
+  <text x="64" y="458" class="title">About</text>
+  <text x="64" y="482" class="muted">Three to four sentence summary describing your strengths and focus.</text>
+
+  <!-- Experience -->
+  <rect class="card" x="40" y="528" width="360" height="140" rx="8"/>
+  <rect class="card" x="420" y="528" width="360" height="140" rx="8"/>
+  <rect class="card" x="800" y="528" width="360" height="140" rx="8"/>
+  <text x="220" y="560" class="title" text-anchor="middle">Current Role</text>
+  <text x="220" y="580" class="muted" text-anchor="middle">Key achievements in 2 lines</text>
+
+  <text x="500" y="560" class="title" text-anchor="middle">Previous Role</text>
+  <text x="500" y="580" class="muted" text-anchor="middle">Key achievements in 2 lines</text>
+
+  <text x="880" y="560" class="title" text-anchor="middle">Early Career</text>
+  <text x="880" y="580" class="muted" text-anchor="middle">Key responsibilities</text>
+
+  <!-- Projects sidebar sketch -->
+  <rect class="box" x="920" y="24" width="240" height="64" rx="6"/>
+  <text x="1040" y="64" class="muted" text-anchor="middle">Project Highlights</text>
+
+  <!-- Footer -->
+  <rect class="card" x="40" y="680" width="1120" height="36" rx="8"/>
+  <text x="64" y="706" class="muted">© Your Name</text>
+</svg>

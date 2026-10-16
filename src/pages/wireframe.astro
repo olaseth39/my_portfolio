@@ -1,0 +1,109 @@
+---
+import Layout from '../layouts/BaseLayout.astro';
+---
+
+<Layout title="Wireframe — Portfolio" description="Prototype wireframe for Senior Data Engineer portfolio">
+  <section class="hero wire-hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1 class="hero-name">Your Name</h1>
+        <p class="hero-role">Senior Data Engineer</p>
+        <p class="hero-tag">Building reliable data platforms and ML-ready pipelines at scale.</p>
+        <div class="cta">
+          <a class="btn primary" href="#">Download Resume</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="portrait-placeholder">Portrait</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="metrics-row container">
+    <div class="metric">5+ years</div>
+    <div class="metric">100k events/s</div>
+    <div class="metric">MTTR &lt; 30m</div>
+  </section>
+
+  <section class="about container">
+    <h2>About</h2>
+    <p class="muted">Short narrative about your strengths and what you bring to engineering teams. Keep this concise and impactful — 3–4 sentences.</p>
+  </section>
+
+  <section class="experience container">
+    <h2>Experience</h2>
+    <div class="exp-grid">
+      <article class="exp-card">
+        <h3>Senior Data Engineer — Current Employer</h3>
+        <p class="muted">2023 — Present</p>
+        <ul>
+          <li>Led design of a unified data platform and modular pipelines (Airflow + dbt)</li>
+          <li>Built streaming ingestion to process 100k events/sec</li>
+        </ul>
+      </article>
+
+      <article class="exp-card">
+        <h3>Data Engineer — Previous Employer</h3>
+        <p class="muted">2020 — 2023</p>
+        <ul>
+          <li>Migrated monolithic ETL to dbt, improved query performance by 3x</li>
+          <li>Implemented CI/CD for analytics models and dbt tests</li>
+        </ul>
+      </article>
+
+      <article class="exp-card">
+        <h3>ETL Developer — Early Career</h3>
+        <p class="muted">2018 — 2020</p>
+        <ul>
+          <li>Maintained ETL jobs and improved data quality with automated checks</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="projects container">
+    <h2>Projects</h2>
+    <div class="proj-grid">
+      <div class="proj-card">Realtime Product Analytics Pipeline</div>
+      <div class="proj-card">dbt Modernization</div>
+      <div class="proj-card">Feature Store & Model Pipelines</div>
+    </div>
+  </section>
+
+  <section class="skills container">
+    <h2>Skills</h2>
+    <div class="skill-groups">
+      <div class="group">
+        <h4>Engineering</h4>
+        <div class="chips">Data pipeline architecture · Observability · Reliability</div>
+      </div>
+      <div class="group">
+        <h4>Tech</h4>
+        <div class="chips">Python · SQL · Spark · dbt · Kafka · Snowflake</div>
+      </div>
+      <div class="group">
+        <h4>Practices</h4>
+        <div class="chips">IaC · CI/CD · Testing</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact container">
+    <div class="contact-left">
+      <h2>Contact</h2>
+      <p class="muted">Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p class="muted">Open to contract and full-time roles</p>
+    </div>
+
+    <div class="contact-right">
+      <h4>Wireframe preview</h4>
+      <img src="/images/wireframe-figma.svg" alt="Figma-style wireframe mockup" style="width:100%;height:auto;border-radius:6px;border:1px solid rgba(0,0,0,0.06);background:#fff;" />
+    </div>
+  </section>
+
+  <footer class="container footer">
+    <p class="muted">© {new Date().getFullYear()} Your Name</p>
+  </footer>
+</Layout>
